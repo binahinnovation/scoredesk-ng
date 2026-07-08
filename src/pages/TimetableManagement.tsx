@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -109,8 +110,8 @@ export default function TimetableManagement() {
             <CardContent className="flex-grow p-0">
               {generatedTimetable ? (
                 <div className="p-6 h-[600px] overflow-y-auto">
-                  <div className="whitespace-pre-wrap text-sm font-mono bg-white text-gray-800">
-                    {generatedTimetable}
+                  <div className="prose prose-sm max-w-none text-gray-800 bg-white">
+                    <ReactMarkdown>{generatedTimetable}</ReactMarkdown>
                   </div>
                 </div>
               ) : (

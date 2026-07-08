@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -116,7 +117,7 @@ export default function LessonPlanGenerator() {
               {generatedPlan ? (
                 <div className="p-6 h-[600px] overflow-y-auto">
                   <div className="whitespace-pre-wrap prose prose-sm max-w-none text-gray-700 prose-headings:text-purple-900 prose-a:text-purple-600">
-                    {generatedPlan}
+                    <ReactMarkdown>{generatedPlan}</ReactMarkdown>
                   </div>
                 </div>
               ) : (
