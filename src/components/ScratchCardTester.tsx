@@ -87,7 +87,7 @@ const ScratchCardTester = () => {
   return (
     <div className="container mx-auto p-6 max-w-4xl">
       <div className="flex items-center mb-6">
-        <TestTube className="h-8 w-8 text-purple-600 mr-3" />
+        <TestTube className="h-8 w-8 text-emerald-600 mr-3" />
         <div>
           <h1 className="text-3xl font-bold">Scratch Card Usage Tester</h1>
           <p className="text-gray-600">Test the scratch card usage functionality</p>

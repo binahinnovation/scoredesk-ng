@@ -62,7 +62,7 @@ const UserManagement = () => {
         <Card className="cursor-pointer hover:shadow-lg transition-shadow" onClick={() => navigate('/users/permissions')}>
           <CardHeader>
             <CardTitle className="flex items-center">
-              <Shield className="h-5 w-5 mr-2 text-purple-600" />
+              <Shield className="h-5 w-5 mr-2 text-emerald-600" />
               Role Permissions
             </CardTitle>
             <CardDescription>

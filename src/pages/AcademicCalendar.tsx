@@ -68,7 +68,7 @@ export default function AcademicCalendar() {
     holiday: 'bg-red-50 text-red-700 border border-red-100',
     exam: 'bg-blue-50 text-blue-700 border border-blue-100',
     event: 'bg-green-50 text-green-700 border border-green-100',
-    term_start: 'bg-purple-50 text-purple-700 border border-purple-100',
+    term_start: 'bg-emerald-50 text-emerald-700 border border-emerald-100',
     term_end: 'bg-amber-50 text-amber-700 border border-amber-100',
   };
 

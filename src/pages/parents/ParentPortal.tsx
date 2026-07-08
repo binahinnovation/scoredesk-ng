@@ -206,7 +206,7 @@ export default function ParentPortal() {
           </Card>
           <Card className="border-0 shadow-sm bg-white">
             <CardContent className="p-6 flex items-center gap-4">
-              <div className="p-3 bg-purple-50 text-purple-600 rounded-lg"><Award className="h-6 w-6" /></div>
+              <div className="p-3 bg-emerald-50 text-emerald-600 rounded-lg"><Award className="h-6 w-6" /></div>
               <div>
                 <p className="text-sm font-medium text-gray-500">Results Recorded</p>
                 <p className="text-2xl font-bold text-gray-900">{results.length}</p>

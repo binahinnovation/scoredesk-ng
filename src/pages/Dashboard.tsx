@@ -401,19 +401,19 @@ const Dashboard: React.FC = () => {
             </Card>
           )}
 
-          <Card className="hover:shadow-lg transition-shadow duration-300 bg-gradient-to-r from-purple-50 to-violet-50 dark:from-purple-900/20 dark:to-violet-900/20 border-purple-200 dark:border-purple-800">
+          <Card className="hover:shadow-lg transition-shadow duration-300 bg-gradient-to-r from-emerald-50 to-violet-50 dark:from-emerald-900/20 dark:to-violet-900/20 border-emerald-200 dark:border-emerald-800">
             <CardContent className="p-6">
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-2 bg-purple-100 dark:bg-purple-900 rounded-full">
-                  <BarChart3 className="h-5 w-5 text-purple-600 dark:text-purple-400" />
+                <div className="p-2 bg-emerald-100 dark:bg-emerald-900 rounded-full">
+                  <BarChart3 className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
                 </div>
-                <h3 className="font-semibold text-purple-900 dark:text-purple-100">Advanced Analytics</h3>
+                <h3 className="font-semibold text-emerald-900 dark:text-emerald-100">Advanced Analytics</h3>
               </div>
-              <p className="text-purple-700 dark:text-purple-300 text-sm mb-4">
+              <p className="text-emerald-700 dark:text-emerald-300 text-sm mb-4">
                 View detailed analytics and performance insights.
               </p>
               <Link to="/analytics">
-                <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
+                <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">
                   View Analytics
                 </Button>
               </Link>

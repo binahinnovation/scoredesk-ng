@@ -86,8 +86,8 @@ export default function FinanceReports() {
         <Card className="border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300">
           <CardHeader className="pb-2 pt-6 flex flex-row items-center justify-between">
             <CardTitle className="text-sm font-medium text-gray-500">Expected Revenue</CardTitle>
-            <div className="p-2 bg-purple-50 rounded-full">
-              <TrendingUp className="h-4 w-4 text-purple-600" />
+            <div className="p-2 bg-emerald-50 rounded-full">
+              <TrendingUp className="h-4 w-4 text-emerald-600" />
             </div>
           </CardHeader>
           <CardContent>

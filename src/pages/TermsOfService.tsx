@@ -138,12 +138,12 @@ export default function TermsOfService() {
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Data Protection and Privacy</h2>
                 
-                <div className="bg-purple-50 border border-purple-200 rounded-lg p-6 mb-6">
-                  <h3 className="text-lg font-semibold text-purple-900 mb-3">Our Commitment</h3>
-                  <p className="text-purple-800 mb-4">
+                <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-6 mb-6">
+                  <h3 className="text-lg font-semibold text-emerald-900 mb-3">Our Commitment</h3>
+                  <p className="text-emerald-800 mb-4">
                     We are committed to protecting your data and privacy:
                   </p>
-                  <ul className="text-purple-800 space-y-2">
+                  <ul className="text-emerald-800 space-y-2">
                     <li>• Complete data isolation between schools</li>
                     <li>• Industry-standard encryption and security measures</li>
                     <li>• No selling or sharing of your data with third parties</li>

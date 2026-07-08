@@ -151,9 +151,9 @@ export default function PrivacyPolicy() {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Your Rights</h2>
                 
                 <div className="grid md:grid-cols-2 gap-6 mb-6">
-                  <div className="bg-purple-50 border border-purple-200 rounded-lg p-6">
-                    <h3 className="text-lg font-semibold text-purple-900 mb-3">Access & Control</h3>
-                    <ul className="text-purple-800 space-y-2 text-sm">
+                  <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-6">
+                    <h3 className="text-lg font-semibold text-emerald-900 mb-3">Access & Control</h3>
+                    <ul className="text-emerald-800 space-y-2 text-sm">
                       <li>• View and update your personal information</li>
                       <li>• Export your school's data</li>
                       <li>• Delete your account and data</li>

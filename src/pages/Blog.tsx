@@ -77,9 +77,9 @@ export default function Blog() {
               </p>
             </div>
             
-            <div class="bg-purple-50 border border-purple-200 rounded-lg p-6">
-              <h3 class="text-lg font-semibold text-purple-900 mb-3">📊 Analytics & Reports</h3>
-              <p class="text-purple-800">
+            <div class="bg-emerald-50 border border-emerald-200 rounded-lg p-6">
+              <h3 class="text-lg font-semibold text-emerald-900 mb-3">📊 Analytics & Reports</h3>
+              <p class="text-emerald-800">
                 Real-time insights into student performance, class rankings, 
                 and comprehensive reporting.
               </p>

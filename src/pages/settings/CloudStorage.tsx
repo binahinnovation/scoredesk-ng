@@ -147,7 +147,7 @@ export default function CloudStorage() {
       case 'csv': return 'text-green-500 bg-green-50';
       case 'jpg':
       case 'png':
-      case 'jpeg': return 'text-purple-500 bg-purple-50';
+      case 'jpeg': return 'text-emerald-500 bg-emerald-50';
       default: return 'text-gray-500 bg-gray-100';
     }
   };

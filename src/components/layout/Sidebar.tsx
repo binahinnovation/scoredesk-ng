@@ -51,8 +51,8 @@ export function Sidebar({ className, open, setOpen }: SidebarProps) {
         "bg-emerald-700 text-white transition-all duration-300 ease-in-out z-30",
         // Mobile: fixed positioning
         "fixed left-0 top-14 sm:top-16 h-[calc(100vh-3.5rem)] sm:h-[calc(100vh-4rem)]",
-        // Desktop: relative positioning
-        "lg:relative lg:top-0 lg:h-full lg:z-auto",
+        // Desktop: sticky positioning with fixed height
+        "lg:sticky lg:top-16 lg:h-[calc(100vh-4rem)] lg:z-auto",
         // Responsive widths: smaller on mobile, standard on desktop
         open ? "w-48 sm:w-56 md:w-60 lg:w-56" : "w-12 sm:w-14 md:w-16",
         // Mobile overlay behavior

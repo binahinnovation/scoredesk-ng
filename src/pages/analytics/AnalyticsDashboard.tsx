@@ -323,8 +323,8 @@ export default function AnalyticsDashboard() {
                 <p className="text-sm font-medium text-muted-foreground">Total Subjects</p>
                 <p className="text-2xl font-bold text-gray-900 dark:text-white">{analytics.totalSubjects.toLocaleString()}</p>
               </div>
-              <div className="p-3 rounded-full bg-purple-100 dark:bg-purple-900">
-                <BookOpen className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+              <div className="p-3 rounded-full bg-emerald-100 dark:bg-emerald-900">
+                <BookOpen className="h-6 w-6 text-emerald-600 dark:text-emerald-400" />
               </div>
             </div>
           </CardContent>

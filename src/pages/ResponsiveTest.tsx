@@ -77,7 +77,7 @@ export default function ResponsiveTest() {
                   </CardContent>
                 </Card>
 
-                <Card className="border-l-4 border-l-purple-500">
+                <Card className="border-l-4 border-l-emerald-500">
                   <CardContent className="p-3 sm:p-4 md:p-6">
                     <div className="flex items-center justify-between">
                       <div className="min-w-0 flex-1">
@@ -85,8 +85,8 @@ export default function ResponsiveTest() {
                         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-900">12</p>
                         <p className="text-xs text-gray-500 truncate">Available subjects</p>
                       </div>
-                      <div className="p-2 sm:p-3 rounded-full bg-purple-100 flex-shrink-0 ml-2">
-                        <div className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 lg:h-7 lg:w-7 text-purple-600">📚</div>
+                      <div className="p-2 sm:p-3 rounded-full bg-emerald-100 flex-shrink-0 ml-2">
+                        <div className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 lg:h-7 lg:w-7 text-emerald-600">📚</div>
                       </div>
                     </div>
                   </CardContent>
@@ -198,7 +198,7 @@ export default function ResponsiveTest() {
                   <span>💾</span>
                   Save Results
                 </button>
-                <button className="flex items-center justify-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-md text-sm w-full sm:w-auto">
+                <button className="flex items-center justify-center gap-2 px-4 py-2 bg-emerald-600 text-white rounded-md text-sm w-full sm:w-auto">
                   <span>✨</span>
                   <span className="hidden sm:inline">Generate All Comments</span>
                   <span className="sm:hidden">Generate All</span>

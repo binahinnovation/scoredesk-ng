@@ -71,7 +71,7 @@ export default function DataBackup() {
 
   const backupOptions = [
     { table: 'students', name: 'Students Register', icon: Users, color: 'text-blue-500', bgColor: 'bg-blue-50', borderColor: 'border-blue-100', description: 'Export all student biodata, admission numbers, and class assignments.' },
-    { table: 'profiles', name: 'Staff & Teachers', icon: FileText, color: 'text-purple-500', bgColor: 'bg-purple-50', borderColor: 'border-purple-100', description: 'Export all staff members, their roles, and contact information.' },
+    { table: 'profiles', name: 'Staff & Teachers', icon: FileText, color: 'text-emerald-500', bgColor: 'bg-emerald-50', borderColor: 'border-emerald-100', description: 'Export all staff members, their roles, and contact information.' },
     { table: 'results', name: 'Academic Results', icon: GraduationCap, color: 'text-emerald-500', bgColor: 'bg-emerald-50', borderColor: 'border-emerald-100', description: 'Export all uploaded academic results and scores.' },
     { table: 'fee_payments', name: 'Financial Records', icon: DollarSign, color: 'text-amber-500', bgColor: 'bg-amber-50', borderColor: 'border-amber-100', description: 'Export all fee payments and financial transactions.' },
   ];

@@ -252,7 +252,7 @@ export default function Documentation() {
                 <Card>
                   <CardHeader className="pb-3">
                     <CardTitle className="text-lg flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
+                      <div className="w-3 h-3 bg-emerald-500 rounded-full"></div>
                       <span>Subject Teacher</span>
                     </CardTitle>
                   </CardHeader>
@@ -371,7 +371,7 @@ export default function Documentation() {
                         <span>Exam Officer reviews</span>
                       </li>
                       <li className="flex items-center space-x-2">
-                        <CheckCircle className="h-4 w-4 text-purple-600" />
+                        <CheckCircle className="h-4 w-4 text-emerald-600" />
                         <span>Principal approves</span>
                       </li>
                       <li className="flex items-center space-x-2">
@@ -390,36 +390,36 @@ export default function Documentation() {
           title: "Question Paper Management",
           content: (
             <div className="space-y-6">
-              <div className="bg-gradient-to-r from-purple-50 to-pink-50 border border-purple-200 rounded-lg p-6">
-                <h3 className="text-xl font-semibold text-purple-900 mb-4">Question Paper Workflow</h3>
+              <div className="bg-gradient-to-r from-emerald-50 to-pink-50 border border-emerald-200 rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-emerald-900 mb-4">Question Paper Workflow</h3>
                 <div className="grid md:grid-cols-4 gap-4">
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-3">
+                    <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-3">
                       <FileText className="h-6 w-6" />
                     </div>
-                    <h4 className="font-semibold text-purple-900">Create Paper</h4>
-                    <p className="text-purple-700 text-sm mt-1">Write questions manually or upload scanned papers</p>
+                    <h4 className="font-semibold text-emerald-900">Create Paper</h4>
+                    <p className="text-emerald-700 text-sm mt-1">Write questions manually or upload scanned papers</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-3">
+                    <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-3">
                       <Edit className="h-6 w-6" />
                     </div>
-                    <h4 className="font-semibold text-purple-900">Edit & Review</h4>
-                    <p className="text-purple-700 text-sm mt-1">Make changes and review content</p>
+                    <h4 className="font-semibold text-emerald-900">Edit & Review</h4>
+                    <p className="text-emerald-700 text-sm mt-1">Make changes and review content</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-3">
+                    <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-3">
                       <Eye className="h-6 w-6" />
                     </div>
-                    <h4 className="font-semibold text-purple-900">Preview</h4>
-                    <p className="text-purple-700 text-sm mt-1">Preview and print question papers</p>
+                    <h4 className="font-semibold text-emerald-900">Preview</h4>
+                    <p className="text-emerald-700 text-sm mt-1">Preview and print question papers</p>
                   </div>
                   <div className="text-center">
-                    <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-3">
+                    <div className="w-12 h-12 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-3">
                       <CheckCircle className="h-6 w-6" />
                     </div>
-                    <h4 className="font-semibold text-purple-900">Submit</h4>
-                    <p className="text-purple-700 text-sm mt-1">Submit for approval and storage</p>
+                    <h4 className="font-semibold text-emerald-900">Submit</h4>
+                    <p className="text-emerald-700 text-sm mt-1">Submit for approval and storage</p>
                   </div>
                 </div>
               </div>
@@ -576,8 +576,8 @@ export default function Documentation() {
                 <Card className="text-center">
                   <CardHeader>
                     <CardTitle className="flex items-center justify-center space-x-2">
-                      <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
-                        <span className="text-purple-600 font-bold">📍</span>
+                      <div className="w-10 h-10 bg-emerald-100 rounded-full flex items-center justify-center">
+                        <span className="text-emerald-600 font-bold">📍</span>
                       </div>
                       <span>Visit Us</span>
                     </CardTitle>
